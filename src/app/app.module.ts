@@ -1,6 +1,5 @@
 import { BrowserModule }      from '@angular/platform-browser';
 import { NgModule }           from '@angular/core';
-import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent }       from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -18,7 +17,6 @@ import { ProfileComponent } from './profile/profile.component';
     ProfileComponent,
   ],
   imports: [
-    NgbModule.forRoot(),
     BrowserModule,
     AppRoutingModule
   ],
